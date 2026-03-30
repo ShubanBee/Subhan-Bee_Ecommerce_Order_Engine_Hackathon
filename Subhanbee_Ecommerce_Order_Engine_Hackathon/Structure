@@ -1,0 +1,55 @@
+Subhanbee_Ecommerce_Order_Engine_Hackathon/
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── ecommerce/
+│   │               ├── Main.java
+│   │               ├── model/
+│   │               │   ├── Product.java
+│   │               │   ├── Cart.java
+│   │               │   ├── CartItem.java
+│   │               │   ├── Order.java
+│   │               │   ├── OrderItem.java
+│   │               │   ├── OrderStatus.java
+│   │               │   ├── Payment.java
+│   │               │   ├── PaymentStatus.java
+│   │               │   ├── AuditLog.java
+│   │               │   └── Event.java
+│   │               ├── service/
+│   │               │   ├── ProductService.java
+│   │               │   ├── CartService.java
+│   │               │   ├── OrderService.java
+│   │               │   ├── PaymentService.java
+│   │               │   ├── DiscountService.java
+│   │               │   ├── InventoryService.java
+│   │               │   ├── EventService.java
+│   │               │   ├── AuditService.java
+│   │               │   ├── FraudDetectionService.java
+│   │               │   └── FailureInjectionService.java
+│   │               ├── repository/
+│   │               │   ├── ProductRepository.java
+│   │               │   ├── OrderRepository.java
+│   │               │   └── AuditRepository.java
+│   │               ├── lock/
+│   │               │   └── ProductLockManager.java
+│   │               ├── exception/
+│   │               │   ├── InsufficientStockException.java
+│   │               │   ├── InvalidProductException.java
+│   │               │   ├── OrderNotFoundException.java
+│   │               │   └── PaymentFailedException.java
+│   │               └── util/
+│   │                   └── IdGenerator.java
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── ecommerce/
+│                   └── service/
+│                       ├── ProductServiceTest.java
+│                       └── OrderServiceTest.java
+│
+├── pom.xml
+├── README.md
+├── .gitignore
+└── run.sh
